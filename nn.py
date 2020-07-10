@@ -74,9 +74,9 @@ class Model(object):
         if isinstance(self.cost, MSE):
             return self.predict(X)
         elif isinstance(self.cost, CrossEntropy):
-            if self.target_labels != None:  
+            if self.target_labels != None:
                 return one_hot_then_names(self.predict(X), self.target_labels)
-            else
+            else:
                 return one_hot_encode(self.predict(X))
 
     def plot_cost(self, errs):

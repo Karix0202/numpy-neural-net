@@ -1,2 +1,5 @@
 # Numpy neural network
-Working NN made only using python (numpy) and math
+
+Folders:
+- ```nn``` contains all neural network files
+- ```vis``` contains all visualization files 

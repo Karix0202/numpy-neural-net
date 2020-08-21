@@ -1,5 +1,26 @@
 import numpy as np
 
+# class BaseEncoder(object):
+#     def __init__(self):
+#         """
+#         This map stores keys and encoded values, e.g.:
+#         {
+#             'class 1': [1,0],
+#             'class 2': [0,1],
+#         }
+#         """
+#
+#
+#     def fit():
+#         pass
+#     def fit_transform():
+#         pass
+#     def transform():
+#         pass
+#
+# class OneHotEncoder(BaseEncoder):
+#     pass
+
 def one_hot_encode(y):
     encoded = []
     if len(y.shape) == 1:
